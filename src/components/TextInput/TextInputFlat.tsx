@@ -329,7 +329,7 @@ const TextInputFlat = ({
 
   return (
     <View style={[containerStyle, viewStyle]}>
-      <Underline
+{/*       <Underline
         style={underlineStyle}
         hasActiveOutline={hasActiveOutline}
         parentState={parentState}
@@ -338,7 +338,7 @@ const TextInputFlat = ({
         colors={colors}
         activeColor={activeColor}
         theme={theme}
-      />
+      /> */}
       <View
         style={[
           styles.labelContainer,
